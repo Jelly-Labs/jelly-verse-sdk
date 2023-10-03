@@ -2,7 +2,7 @@ import { Network } from './network';
 import { BalancerNetworkConfig } from '@/types';
 import addressesByNetwork from './addresses.json';
 
-export const balancerVault = '0xBA12222222228d8Ba445958a75a0704d566BF2C8';
+export const balancerVault = '0x4fFbbDea67CeDE852BFb17243463502f33473092';
 
 // Info fetched using npm package slot20
 export const BPT_SLOT = 0;
@@ -369,7 +369,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     },
     urls: {
       subgraph:
-        'https://api.studio.thegraph.com/query/24660/balancer-sepolia-v2/version/latest',
+        'https://api.studio.thegraph.com/query/53168/jelly/version/latest',
     },
     thirdParty: {
       coingecko: {
