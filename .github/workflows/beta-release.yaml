@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 18
       - name: install dependencies
-        run: npm run install
+        run: npm install
       - name: Generate Typechain
         run: npm run typechain:generate
       - name: run rollup build
