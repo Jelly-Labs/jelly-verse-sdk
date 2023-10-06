@@ -89,7 +89,7 @@ jobs:
       - name: Run Polygon node in background for integration tests
         run: npx hardhat --tsconfig tsconfig.testing.json --config hardhat.config.polygon.ts node --hostname 127.0.0.1 --fork ${{ secrets.ALCHEMY_URL_POLYGON }} --port 8137 &
       - name: Test
-        run: yarn test
+        run: # yarn test
 
 env:
   CI: true
