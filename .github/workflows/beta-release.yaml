@@ -17,12 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: develop
-          persist-credentials: false
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16
       - name: install dependencies
         run: npm install
       - name: Generate Typechain
@@ -30,7 +27,7 @@ jobs:
       - name: run rollup build
         run:  npm ci && npm run build
       - name: publish to npm registry
-        run: npm publish --access public
+        run: echo $NODE_AUTH_TOKEN && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
