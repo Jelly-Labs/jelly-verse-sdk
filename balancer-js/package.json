@@ -1,17 +1,8 @@
 {
   "name": "@jelly-verse/sdk",
-  "version": "1.2.0",
+  "version": "1.1.5",
   "description": "JavaScript SDK for interacting with the Jelly Verse/Balancer Protocol V2",
   "license": "GPL-3.0-only",
-  "homepage": "https://github.com/balancer-labs/balancer-sdk#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/balancer-labs/balancer-sdk",
-    "directory": "balancer-js"
-  },
-  "bugs": {
-    "url": "https://github.com/balancer-labs/balancer-sdk/issues"
-  },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
