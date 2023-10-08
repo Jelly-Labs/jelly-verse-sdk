@@ -28,7 +28,7 @@ jobs:
       - name: Generate Typechain
         run: npm run typechain:generate
       - name: run rollup build
-        run:  npm run build
+        run:  npm ci && npm run build
       - name: publish to npm registry
         run: npm publish --access public
         env:
