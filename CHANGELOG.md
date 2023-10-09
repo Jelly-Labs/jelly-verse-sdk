@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.3.0...v1.3.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* npm version updated ([a1153da](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/a1153dabbdaf91644c6cb4ec7ddf9e062de044d6))
+* release and package versioning synced ([64afebf](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/64afebf436f8deaa125755d41c19b33b7321ee5b))
+
 ## [1.3.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.2.1...v1.3.0) (2023-10-09)
 
 
