@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.2.1...v1.3.0) (2023-10-09)
+
+
+### Features
+
+* version 1.3.0 and two step release ([9f3c299](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/9f3c299ba74198702650f7ae188079f7a2066e9f))
+
+
+### Bug Fixes
+
+* actual two step release ([b71c2df](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/b71c2df1d72fd4c5b200fb7f9684e06ea2730793))
+
 ## [1.2.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.2.0...v1.2.1) (2023-10-09)
 
 
