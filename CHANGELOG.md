@@ -1,0 +1,24 @@
+# Changelog
+
+## [1.2.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.1.5...v1.2.0) (2023-10-09)
+
+
+### Features
+
+* Balancer's Sepolia addresses changed to jelly contracts addresses in constants ([adef422](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/adef422db36c7c814e222390334a4257de78373a))
+* git actions updated ([5841b56](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/5841b56bbd918fc2761848de87279159ac3ddd7e))
+* package name and description changed ([13936b5](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/13936b5bc161b4adeb88bf51d99add7f1078912e))
+* release ([78c4f7d](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/78c4f7d8923648c844bccb7337d75e4e0d626b6d))
+* uses google-github-actions/release-please-action@v3 ([a9d7232](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/a9d72324a4e4b7126ef3896a132a0d7575a0aeca))
+
+
+### Bug Fixes
+
+* add npm ci before build ([1a46ce4](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/1a46ce41bbd74a68f29a3eb19e35164fc66ff0da))
+* checkout ot right branch ([8e2a75e](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/8e2a75e2e0bafd9b2eaec909dd85ad6c928dba01))
+* checks before steps added ([17b6ae1](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/17b6ae15f4732ecce727ee5564b4b8a05c2ce408))
+* disable tests ([143f484](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/143f48430912035abc30d55ecff23f66b594cdb2))
+* homepage repositiry and bugs removed ([4464978](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/4464978645b8e5ff8b15406a5e772412575ac439))
+* new  package version ([bcdf4e7](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/bcdf4e7902963f7302bb348bef965a20a123cac8))
+* npm install ([af69b73](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/af69b73bcf949f12e80214cb31cb00b488608c07))
+* version ([b9d4693](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/b9d46935864b853fbf550edab0832dffd79c8945))
