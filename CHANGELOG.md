@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.2.0...v1.2.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* pacckge lock for ci ([78b9805](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/78b9805c4af78477d53aa1698d02c0a614d07fed))
+
 ## [1.2.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.1.5...v1.2.0) (2023-10-09)
 
 
