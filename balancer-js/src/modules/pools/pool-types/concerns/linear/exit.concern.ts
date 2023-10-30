@@ -4,7 +4,7 @@ import { BigNumber } from '@ethersproject/bignumber';
 
 import { BalancerError, BalancerErrorCode } from '@/balancerErrors';
 import { Vault__factory } from '@/contracts';
-import { balancerVault } from '@/lib/constants/config';
+import { networkAddresses } from '@/lib/constants/config';
 import { insert, parsePoolInfo, removeItem } from '@/lib/utils';
 import { _downscaleDownArray } from '@/lib/utils/solidityMaths';
 import { subSlippage } from '@/lib/utils/slippageHelper';
@@ -20,6 +20,7 @@ import {
   ExitPool,
 } from '../types';
 import { LinearPriceImpact } from '../linear/priceImpact.concern';
+import { Network } from '@/types';
 
 interface SortedValues {
   bptIndex: number;
@@ -44,6 +45,8 @@ type EncodeExitParams = Pick<
 };
 
 export class LinearPoolExit implements ExitConcern {
+  constructor(private chainId: Network) {}
+
   buildExitExactBPTIn = ({
     exiter,
     pool,
@@ -205,7 +208,7 @@ export class LinearPoolExit implements ExitConcern {
       toInternalBalance,
     } = params;
 
-    const to = balancerVault;
+    const to = networkAddresses(this.chainId).contracts.vault;
     const functionName = 'exitPool';
     const attributes: ExitPool = {
       poolId: poolId,

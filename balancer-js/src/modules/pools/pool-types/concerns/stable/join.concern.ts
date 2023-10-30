@@ -3,12 +3,12 @@ import { BigNumber } from '@ethersproject/bignumber';
 
 import { BalancerError, BalancerErrorCode } from '@/balancerErrors';
 import { Vault__factory } from '@/contracts/factories/Vault__factory';
-import { balancerVault } from '@/lib/constants/config';
+import { networkAddresses } from '@/lib/constants/config';
 import { AssetHelpers, getEthValue, parsePoolInfo } from '@/lib/utils';
 import { subSlippage } from '@/lib/utils/slippageHelper';
 import { _upscaleArray } from '@/lib/utils/solidityMaths';
 import { StablePoolEncoder } from '@/pool-stable';
-import { Pool } from '@/types';
+import { Network, Pool } from '@/types';
 
 import { StablePoolPriceImpact } from '../stable/priceImpact.concern';
 import {
@@ -37,6 +37,8 @@ type EncodeJoinPoolParams = {
   Pick<JoinPoolParameters, 'amountsIn' | 'tokensIn'>;
 
 export class StablePoolJoin implements JoinConcern {
+  constructor(private chainId: Network) {}
+
   buildJoin = ({
     joiner,
     pool,
@@ -197,7 +199,7 @@ export class StablePoolJoin implements JoinConcern {
       minBPTOut
     );
 
-    const to = balancerVault;
+    const to = networkAddresses(this.chainId).contracts.vault;
     const functionName = 'joinPool';
     const attributes: JoinPool = {
       poolId,

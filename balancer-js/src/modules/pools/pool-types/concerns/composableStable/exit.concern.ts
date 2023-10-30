@@ -16,9 +16,9 @@ import {
   _downscaleDownArray,
   _upscaleArray,
 } from '@/lib/utils/solidityMaths';
-import { balancerVault } from '@/lib/constants/config';
+import { networkAddresses } from '@/lib/constants/config';
 import { ComposableStablePoolEncoder } from '@/pool-composable-stable';
-import { Pool } from '@/types';
+import { Network, Pool } from '@/types';
 import {
   ExitConcern,
   ExitExactBPTInAttributes,
@@ -80,6 +80,8 @@ type EncodeExitParams = Pick<
 };
 
 export class ComposableStablePoolExit implements ExitConcern {
+  constructor(private chainId: Network) {}
+
   buildExitExactBPTIn = ({
     exiter,
     pool,
@@ -586,7 +588,7 @@ export class ComposableStablePoolExit implements ExitConcern {
       toInternalBalance,
     } = params;
 
-    const to = balancerVault;
+    const to = networkAddresses(this.chainId).contracts.vault;
     const functionName = 'exitPool';
     const attributes: ExitPool = {
       poolId: poolId,

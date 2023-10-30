@@ -14,8 +14,9 @@ import {
 
 export class Weighted implements PoolType {
   constructor(
-    public exit: ExitConcern = new WeightedPoolExit(),
-    public join: JoinConcern = new WeightedPoolJoin(),
+    chainId: number,
+    public exit: ExitConcern = new WeightedPoolExit(chainId),
+    public join: JoinConcern = new WeightedPoolJoin(chainId),
     public liquidity: LiquidityConcern = new WeightedPoolLiquidity(),
     public spotPriceCalculator: SpotPriceConcern = new WeightedPoolSpotPrice(),
     public priceImpactCalculator: PriceImpactConcern = new WeightedPoolPriceImpact()

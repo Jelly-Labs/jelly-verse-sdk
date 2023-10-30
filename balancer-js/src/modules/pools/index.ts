@@ -116,7 +116,7 @@ export class Pools implements Findable<PoolWithMethods> {
     let queries: Queries.ParamsBuilder;
     let methods;
     try {
-      concerns = PoolTypeConcerns.from(pool.poolType);
+      concerns = PoolTypeConcerns.from(pool.poolType, networkConfig.chainId);
       methods = {
         buildJoin: (
           joiner: string,
@@ -350,7 +350,10 @@ export class Pools implements Findable<PoolWithMethods> {
     userAddress: string;
     slippage: string;
   }): JoinPoolAttributes {
-    const concerns = PoolTypeConcerns.from(pool.poolType);
+    const concerns = PoolTypeConcerns.from(
+      pool.poolType,
+      this.networkConfig.chainId
+    );
 
     if (!concerns)
       throw `buildJoin for poolType ${pool.poolType} not implemented`;
@@ -381,7 +384,10 @@ export class Pools implements Findable<PoolWithMethods> {
     shouldUnwrapNativeAsset?: boolean;
     singleTokenOut?: string;
   }): ExitExactBPTInAttributes {
-    const concerns = PoolTypeConcerns.from(pool.poolType);
+    const concerns = PoolTypeConcerns.from(
+      pool.poolType,
+      this.networkConfig.chainId
+    );
     if (!concerns || !concerns.exit.buildExitExactBPTIn)
       throw `buildExit for poolType ${pool.poolType} not implemented`;
 
@@ -411,7 +417,10 @@ export class Pools implements Findable<PoolWithMethods> {
     slippage: string;
     toInternalBalance?: boolean;
   }): ExitExactBPTInAttributes {
-    const concerns = PoolTypeConcerns.from(pool.poolType);
+    const concerns = PoolTypeConcerns.from(
+      pool.poolType,
+      this.networkConfig.chainId
+    );
     if (!concerns || !concerns.exit.buildRecoveryExit)
       throw `buildRecoveryExit for poolType ${pool.poolType} not implemented`;
 
@@ -518,7 +527,10 @@ export class Pools implements Findable<PoolWithMethods> {
     bptAmount: string;
     isJoin: boolean;
   }): string {
-    const concerns = PoolTypeConcerns.from(pool.poolType);
+    const concerns = PoolTypeConcerns.from(
+      pool.poolType,
+      this.networkConfig.chainId
+    );
     return concerns.priceImpactCalculator.calcPriceImpact(
       pool,
       tokenAmounts.map(BigInt),

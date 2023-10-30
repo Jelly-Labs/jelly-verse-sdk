@@ -6,7 +6,7 @@ import { JsonRpcProvider, TransactionReceipt } from '@ethersproject/providers';
 
 import { Vault__factory } from '@/contracts/factories/Vault__factory';
 import { WeightedPoolFactory__factory } from '@/contracts/factories/WeightedPoolFactory__factory';
-import { balancerVault, networkAddresses } from '@/lib/constants/config';
+import { networkAddresses } from '@/lib/constants/config';
 import {
   AssetHelpers,
   findEventInReceiptLogs,
@@ -31,14 +31,16 @@ import { WeightedPoolInterface } from '@/contracts/WeightedPool';
 export class WeightedFactory implements PoolFactory {
   private wrappedNativeAsset: string;
   private contracts: ContractInstances;
+  private balancerVault: string;
 
   constructor(
     networkConfig: BalancerNetworkConfig,
     contracts: ContractInstances
   ) {
-    const { tokens } = networkAddresses(networkConfig.chainId);
-    this.wrappedNativeAsset = tokens.wrappedNativeAsset;
+    const addresses = networkAddresses(networkConfig.chainId);
+    this.wrappedNativeAsset = addresses.tokens.wrappedNativeAsset;
     this.contracts = contracts;
+    this.balancerVault = addresses.contracts.vault;
   }
 
   /**
@@ -207,7 +209,7 @@ export class WeightedFactory implements PoolFactory {
     const { functionName, data } = this.encodeInitJoinFunctionData(params);
 
     return {
-      to: balancerVault,
+      to: this.balancerVault,
       functionName,
       data,
       attributes,
