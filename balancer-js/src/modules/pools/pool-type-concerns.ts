@@ -25,7 +25,7 @@ export class PoolTypeConcerns {
     public weighted: Weighted,
     public stable: Stable,
     public composableStable: ComposableStable,
-    public metaStable = new MetaStable(),
+    public metaStable: MetaStable,
     public stablePhantom = new StablePhantom(),
     public linear: Linear
   ) {
@@ -34,11 +34,13 @@ export class PoolTypeConcerns {
       this.composableStable = new ComposableStable(config.network as Network);
       this.stable = new Stable(config.network as Network);
       this.weighted = new Weighted(config.network as Network);
+      this.metaStable = new MetaStable(config.network as Network);
     } else if (isBalancerNetworkConfig(config.network)) {
       this.linear = new Linear(config.network.chainId);
       this.composableStable = new ComposableStable(config.network.chainId);
       this.stable = new Stable(config.network.chainId);
       this.weighted = new Weighted(config.network.chainId);
+      this.metaStable = new MetaStable(config.network.chainId);
     } else {
       console.log('Unknown network type');
     }
@@ -68,7 +70,7 @@ export class PoolTypeConcerns {
         return new Gyro();
       }
       case 'MetaStable': {
-        return new MetaStable();
+        return new MetaStable(chainId);
       }
       case 'Stable': {
         return new Stable(chainId);

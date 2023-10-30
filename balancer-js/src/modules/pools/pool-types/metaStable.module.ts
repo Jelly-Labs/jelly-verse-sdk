@@ -14,8 +14,9 @@ import { StablePoolJoin } from '@/modules/pools/pool-types/concerns/stable/join.
 
 export class MetaStable implements PoolType {
   constructor(
-    public exit: ExitConcern = new StablePoolExit(),
-    public join: JoinConcern = new StablePoolJoin(),
+    chainId: number,
+    public exit: ExitConcern = new StablePoolExit(chainId),
+    public join: JoinConcern = new StablePoolJoin(chainId),
     public liquidity: LiquidityConcern = new MetaStablePoolLiquidity(),
     public spotPriceCalculator: SpotPriceConcern = new MetaStablePoolSpotPrice(),
     public priceImpactCalculator: PriceImpactConcern = new StablePoolPriceImpact()
