@@ -152,12 +152,14 @@ export const getRandomBytes32 = (): string => {
   return `0x${randomBytes32}`;
 };
 
-export function isNetworkEnum(value: any): value is Network {
+export function isNetworkEnum(
+  value: Network | BalancerNetworkConfig
+): value is Network {
   return typeof value === 'number';
 }
 
 export function isBalancerNetworkConfig(
-  value: any
+  value: Network | BalancerNetworkConfig
 ): value is BalancerNetworkConfig {
   return value && typeof value === 'object' && 'chainId' in value;
 }
