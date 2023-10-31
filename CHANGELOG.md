@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.4.0...v1.4.1) (2023-10-31)
+
+
+### Bug Fixes
+
+* new version in package.json ([6e31f49](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/6e31f49eb39a4adb36ab2d391504f4b1213e654d))
+
 ## [1.4.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.3.2...v1.4.0) (2023-10-31)
 
 
