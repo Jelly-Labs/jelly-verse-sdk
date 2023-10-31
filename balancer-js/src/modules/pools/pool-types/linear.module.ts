@@ -11,10 +11,12 @@ import {
   PriceImpactConcern,
   SpotPriceConcern,
 } from './concerns/types';
+import { Network } from '@/types';
 
 export class Linear implements PoolType {
   constructor(
-    public exit: ExitConcern = new LinearPoolExit(),
+    private chainId: Network,
+    public exit: ExitConcern = new LinearPoolExit(chainId),
     public join: JoinConcern = new LinearPoolJoin(),
     public liquidity: LiquidityConcern = new LinearPoolLiquidity(),
     public spotPriceCalculator: SpotPriceConcern = new LinearPoolSpotPrice(),

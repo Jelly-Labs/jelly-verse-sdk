@@ -1,4 +1,4 @@
-import { Address, PoolType } from '@/types';
+import { Address, BalancerNetworkConfig, Network, PoolType } from '@/types';
 import { getAddress } from '@ethersproject/address';
 import { Log, TransactionReceipt } from '@ethersproject/providers';
 import { Interface, LogDescription } from '@ethersproject/abi';
@@ -151,3 +151,15 @@ export const getRandomBytes32 = (): string => {
   const randomBytes32 = Array(8).fill(null).map(getRandomBytes8).join('');
   return `0x${randomBytes32}`;
 };
+
+export function isNetworkEnum(
+  value: Network | BalancerNetworkConfig
+): value is Network {
+  return typeof value === 'number';
+}
+
+export function isBalancerNetworkConfig(
+  value: Network | BalancerNetworkConfig
+): value is BalancerNetworkConfig {
+  return value && typeof value === 'object' && 'chainId' in value;
+}

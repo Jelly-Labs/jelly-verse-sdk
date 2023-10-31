@@ -14,8 +14,9 @@ import {
 
 export class Stable implements PoolType {
   constructor(
-    public exit: ExitConcern = new StablePoolExit(),
-    public join: JoinConcern = new StablePoolJoin(),
+    chainId: number,
+    public exit: ExitConcern = new StablePoolExit(chainId),
+    public join: JoinConcern = new StablePoolJoin(chainId),
     public liquidity: LiquidityConcern = new StablePoolLiquidity(),
     public spotPriceCalculator: SpotPriceConcern = new StablePoolSpotPrice(),
     public priceImpactCalculator: PriceImpactConcern = new StablePoolPriceImpact()

@@ -381,6 +381,34 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     poolsToIgnore: [],
     sorConnectingTokens: [],
   },
+  [Network.CHANGI]: {
+    chainId: Network.CHANGI, //1133
+    addresses: {
+      contracts: {
+        multicall: '0xcA11bde05977b3631167028862bE2a173976CA11', // TODO
+        poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102', // TODO
+        ...addressesByNetwork[Network.CHANGI].contracts,
+      },
+      tokens: {
+        bal: addressesByNetwork[Network.CHANGI].contracts.bal,
+        wrappedNativeAsset: addressesByNetwork[Network.CHANGI].contracts.weth,
+        ...addressesByNetwork[Network.CHANGI].tokens,
+      },
+    },
+    urls: {
+      subgraph:
+        'https://api.studio.thegraph.com/query/53168/jelly-dfi/version/latest', // TODO
+    },
+    thirdParty: {
+      coingecko: {
+        nativeAssetId: 'dfi',
+        platformId: 'changi', // TODO
+      },
+    },
+    pools: {},
+    poolsToIgnore: [],
+    sorConnectingTokens: [],
+  },
   [Network.ZKEVM]: {
     chainId: Network.ZKEVM, //1101
     addresses: {

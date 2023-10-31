@@ -136,7 +136,10 @@ export class PoolGraph {
 
     const tokenTotal = this.getTokenTotal(pool);
     // Spot price service
-    const { spotPriceCalculator } = PoolTypeConcerns.from(pool.poolType);
+    const { spotPriceCalculator } = PoolTypeConcerns.from(
+      pool.poolType,
+      pool.chainId
+    );
     const spotPrices: SpotPrices = {};
     let decimals = 18;
     // Spot price of a path is product of the sp of each pool in path. We calculate the sp for each pool token here to use as required later.

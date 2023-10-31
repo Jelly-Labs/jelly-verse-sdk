@@ -82,7 +82,8 @@ export class Liquidity {
     // }
 
     const tokenLiquidity = PoolTypeConcerns.from(
-      pool.poolType
+      pool.poolType,
+      pool.chainId
     ).liquidity.calcTotal(nonPoolTokensWithUpdatedPrice);
 
     const parsedTokenLiquidity = parseFixed(tokenLiquidity, SCALE);

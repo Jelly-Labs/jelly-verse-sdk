@@ -13,7 +13,7 @@ import {
 import { AssetHelpers, isSameAddress, parsePoolInfo } from '@/lib/utils';
 import { Vault__factory } from '@/contracts/factories/Vault__factory';
 import { addSlippage, subSlippage } from '@/lib/utils/slippageHelper';
-import { balancerVault } from '@/lib/constants/config';
+import { networkAddresses } from '@/lib/constants/config';
 import { BalancerError, BalancerErrorCode } from '@/balancerErrors';
 import { WeightedPoolEncoder } from '@/pool-weighted';
 import {
@@ -21,7 +21,7 @@ import {
   _downscaleDownArray,
   _upscaleArray,
 } from '@/lib/utils/solidityMaths';
-import { Pool } from '@/types';
+import { Network, Pool } from '@/types';
 import { BasePoolEncoder } from '@/pool-base';
 import { WeightedPoolPriceImpact } from '../weighted/priceImpact.concern';
 
@@ -71,6 +71,8 @@ type EncodeExitParams = Pick<
 };
 
 export class WeightedPoolExit implements ExitConcern {
+  constructor(private chainId: Network) {}
+
   buildExitExactBPTIn = ({
     exiter,
     pool,
@@ -489,7 +491,7 @@ export class WeightedPoolExit implements ExitConcern {
     userData,
     toInternalBalance,
   }: EncodeExitParams): ExitPoolAttributes => {
-    const to = balancerVault;
+    const to = networkAddresses(this.chainId).contracts.vault;
     const functionName = 'exitPool';
     const attributes: ExitPool = {
       poolId,

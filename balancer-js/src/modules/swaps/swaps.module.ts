@@ -14,7 +14,7 @@ import {
   SwapsOptions,
 } from './types';
 import { queryBatchSwap, getSorSwapInfo } from './queryBatchSwap';
-import { balancerVault } from '@/lib/constants/config';
+import { networkAddresses } from '@/lib/constants/config';
 import { getLimitsForSlippage } from './helpers';
 import { BalancerSdkConfig } from '@/types';
 import { SwapInput } from './types';
@@ -57,7 +57,7 @@ export class Swaps {
     }
 
     this.vaultContract = Vault__factory.connect(
-      balancerVault,
+      networkAddresses(this.chainId).contracts.vault,
       this.sor.provider
     );
   }

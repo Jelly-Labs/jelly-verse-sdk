@@ -3,7 +3,7 @@ import { BigNumber } from '@ethersproject/bignumber';
 
 import { BalancerError, BalancerErrorCode } from '@/balancerErrors';
 import { Vault__factory } from '@/contracts/factories/Vault__factory';
-import { balancerVault } from '@/lib/constants/config';
+import { networkAddresses } from '@/lib/constants/config';
 import {
   AssetHelpers,
   parsePoolInfo,
@@ -14,7 +14,7 @@ import {
 import { subSlippage } from '@/lib/utils/slippageHelper';
 import { _upscaleArray } from '@/lib/utils/solidityMaths';
 import { ComposableStablePoolEncoder } from '@/pool-composable-stable';
-import { Pool } from '@/types';
+import { Network, Pool } from '@/types';
 
 import { StablePoolPriceImpact } from '../stable/priceImpact.concern';
 import {
@@ -42,6 +42,8 @@ type SortedInputs = SortedValues &
   };
 
 export class ComposableStablePoolJoin implements JoinConcern {
+  constructor(private chainId: Network) {}
+
   buildJoin = ({
     joiner,
     pool,
@@ -79,7 +81,7 @@ export class ComposableStablePoolJoin implements JoinConcern {
 
     return {
       ...encodedData,
-      to: balancerVault,
+      to: networkAddresses(this.chainId).contracts.vault,
       value,
       priceImpact,
     };
