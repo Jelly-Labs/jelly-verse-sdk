@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.3.2...v1.4.0) (2023-10-31)
+
+
+### Features
+
+* wip chaanges regarding balancerVault constant, and mock of changi network ([384c873](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/384c873a61fd050572537f5216e44294a4eb8ff7))
+
+
+### Bug Fixes
+
+* any removed form util checks ([75b321b](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/75b321b24e854ef3efa23486839344100d2f76df))
+* build issues resolved ([e0135bb](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e0135bbca9d2553f85ef70ed85da7a435e9a8e08))
+
 ## [1.3.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.3.1...v1.3.2) (2023-10-09)
 
 
