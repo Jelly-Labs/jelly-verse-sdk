@@ -34,7 +34,7 @@ A JavaScript SDK which provides commonly used utilties for interacting with Bala
 ## Getting Started
 
 ```js
-import { BalancerSDK, BalancerSdkConfig, Network } from '@balancer-labs/sdk';
+import { BalancerSDK, BalancerSdkConfig, Network } from '@jelly-verse/sdk';
 
 const config: BalancerSdkConfig = {
   network: Network.MAINNET,
