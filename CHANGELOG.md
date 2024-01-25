@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.0...v1.5.1) (2024-01-25)
+
+
+### Bug Fixes
+
+* version 1.5.1 ([e7a51be](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e7a51be7570cb8d4d305b953f017f3ec7ddbcaed))
+
 ## [1.5.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.4.1...v1.5.0) (2024-01-25)
 
 
