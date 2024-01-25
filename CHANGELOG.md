@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.4.1...v1.5.0) (2024-01-25)
+
+
+### Features
+
+* remove changi, change sepolia tokens ([e347104](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e347104d0c1ec4a8371e89115f6d88e743c6d917))
+
+
+### Bug Fixes
+
+* version 1.4.2 new token addresses on sepolia, changi network removed ([c7ccab5](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/c7ccab59cc5acda05f02f1d746ff5f223bc615af))
+
 ## [1.4.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.4.0...v1.4.1) (2023-10-31)
 
 
