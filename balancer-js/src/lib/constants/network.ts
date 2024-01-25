@@ -11,5 +11,4 @@ export enum Network {
   ARBITRUM = 42161,
   AVALANCHE = 43114,
   SEPOLIA = 11155111,
-  CHANGI = 1133,
 }
