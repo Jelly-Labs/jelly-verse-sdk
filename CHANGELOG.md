@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.2...v1.5.3) (2024-01-25)
+
+
+### Bug Fixes
+
+* subgraph types and schema generated from jelly subgraph ([0273327](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/027332766f2f355b8fd6dc91ff2b5fecf9e813fd))
+
 ## [1.5.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.1...v1.5.2) (2024-01-25)
 
 
