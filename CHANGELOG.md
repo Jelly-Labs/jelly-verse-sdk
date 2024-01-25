@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.1...v1.5.2) (2024-01-25)
+
+
+### Bug Fixes
+
+* addresess reverted for sepolia ([ead6a28](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/ead6a28e31261080e30933ec4024b6d930e9b4f2))
+* versionn 1.5.2 ([fd3f72c](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/fd3f72c37df4707f2b2399b69aa6903c2980a183))
+
 ## [1.5.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.0...v1.5.1) (2024-01-25)
 
 
