@@ -507,6 +507,34 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       '0x2db50a0e0310723ef0c2a165cb9a9f80d772ba2f00020000000000000000000d', // weth/staBal
     ],
   },
+  [Network.SEIDEV]: {
+    chainId: Network.SEIDEV, //713715
+    addresses: {
+      contracts: {
+        multicall: '0xEe8d287B844959ADe40d718Dc23077ba920e2f07',
+        poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102', // TODO: Update with the correct address
+        ...addressesByNetwork[Network.SEIDEV].contracts,
+      },
+      tokens: {
+        bal: addressesByNetwork[Network.SEIDEV].contracts.bal,
+        wrappedNativeAsset: addressesByNetwork[Network.SEIDEV].contracts.wsei,
+        ...addressesByNetwork[Network.SEIDEV].tokens,
+      },
+    },
+    urls: {
+      subgraph:
+        'https://api.studio.thegraph.com/query/53168/jelly/version/latest', //TODO: Update with the correct subgraph
+    },
+    thirdParty: {
+      coingecko: {
+        nativeAssetId: 'sei',
+        platformId: 'sei',
+      },
+    },
+    pools: {},
+    poolsToIgnore: [],
+    sorConnectingTokens: [],
+  },
 };
 
 export const networkAddresses = (
