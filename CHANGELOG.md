@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.0...v1.6.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* vault and weighted factory addresses fixed ([3140d7a](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/3140d7a41e19468d87b1280749ec015410e708af))
+
 ## [1.6.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.3...v1.6.0) (2024-03-27)
 
 
