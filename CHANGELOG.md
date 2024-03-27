@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.3...v1.6.0) (2024-03-27)
+
+
+### Features
+
+* sei testnet added to sdk (WIP) ([1239d7b](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/1239d7b8b8c56c937ae1e92ec832861f4de320cb))
+
+
+### Bug Fixes
+
+* temporary subgraph added ([2a6bcf6](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/2a6bcf6b01a2cdfa02adb8d805254ef0911c4974))
+
 ## [1.5.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.2...v1.5.3) (2024-01-25)
 
 
