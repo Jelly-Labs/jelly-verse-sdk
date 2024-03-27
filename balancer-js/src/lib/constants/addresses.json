@@ -756,8 +756,8 @@
       "poolRecoveryHelper": "0xA4398B98221eD5FcB6A81837747DB70f8B7F1143",
       "protocolFeePercentagesProvider": "0xA4398B98221eD5FcB6A81837747DB70f8B7F1143",
       "protocolIdRegistry": "0xA197d668a20Ea8dF8D52A9C0DF2277901fB315Ea",
-      "vault": "0x4fFbbDea67CeDE852BFb17243463502f33473092",
-      "weightedPoolFactory": "0xad8b9Eb3bc751E94dcE3D76BF3cA89Fd617e8B03",
+      "vault": "0x7ccBebeb88696f9c8b061f1112Bb970158e29cA5",
+      "weightedPoolFactory": "0x848Ea834Ff33794140BF0aB270204F3C98FA57C3",
       "wsei": "0x57ee725beeb991c70c53f9642f36755ec6eb2139"
     },
     "tokens": {
