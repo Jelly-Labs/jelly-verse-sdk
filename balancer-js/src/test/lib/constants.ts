@@ -888,6 +888,18 @@ export const ADDRESSES = {
       symbol: 'BAL',
     },
   },
+  [Network.SEIDEV]: {
+    WSEI: {
+      address: '0x57ee725beeb991c70c53f9642f36755ec6eb2139',
+      decimals: 18,
+      symbol: 'WSEI',
+    },
+    BAL: {
+      address: '0x18b9f230580b32819e8bfb8d5643d92884004590', // TODO: change
+      decimals: 18,
+      symbol: 'JLY',
+    },
+  },
   [Network.ZKEVM]: {
     WETH: {
       address: '0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9',

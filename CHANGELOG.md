@@ -1,5 +1,60 @@
 # Changelog
 
+## [1.6.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.3...v1.6.0) (2024-03-27)
+
+
+### Features
+
+* sei testnet added to sdk (WIP) ([1239d7b](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/1239d7b8b8c56c937ae1e92ec832861f4de320cb))
+
+
+### Bug Fixes
+
+* temporary subgraph added ([2a6bcf6](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/2a6bcf6b01a2cdfa02adb8d805254ef0911c4974))
+
+## [1.5.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.2...v1.5.3) (2024-01-25)
+
+
+### Bug Fixes
+
+* subgraph types and schema generated from jelly subgraph ([0273327](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/027332766f2f355b8fd6dc91ff2b5fecf9e813fd))
+
+## [1.5.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.1...v1.5.2) (2024-01-25)
+
+
+### Bug Fixes
+
+* addresess reverted for sepolia ([ead6a28](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/ead6a28e31261080e30933ec4024b6d930e9b4f2))
+* versionn 1.5.2 ([fd3f72c](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/fd3f72c37df4707f2b2399b69aa6903c2980a183))
+
+## [1.5.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.5.0...v1.5.1) (2024-01-25)
+
+
+### Bug Fixes
+
+* version 1.5.1 ([e7a51be](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e7a51be7570cb8d4d305b953f017f3ec7ddbcaed))
+
+## [1.5.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.4.1...v1.5.0) (2024-01-25)
+
+
+### Features
+
+* remove changi, change sepolia tokens ([e347104](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e347104d0c1ec4a8371e89115f6d88e743c6d917))
+
+
+### Bug Fixes
+
+* new major version 1.5.0 ([d281a07](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/d281a07c3e5b1263d471e3bbc0c4265884e6f7ad))
+* new major version 1.5.1 ([ccb5f94](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/ccb5f94b968d7c6c60d1ea89e91ed557aa9c3b4c))
+* version 1.4.2 new token addresses on sepolia, changi network removed ([c7ccab5](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/c7ccab59cc5acda05f02f1d746ff5f223bc615af))
+
+## [1.4.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.4.0...v1.4.1) (2023-10-31)
+
+
+### Bug Fixes
+
+* new version in package.json ([6e31f49](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/6e31f49eb39a4adb36ab2d391504f4b1213e654d))
+
 ## [1.4.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.3.2...v1.4.0) (2023-10-31)
 
 
