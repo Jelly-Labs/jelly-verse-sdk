@@ -110,7 +110,7 @@ const swaps = new swapService({
 
 ## Examples
 
-You can run each example with `npm run examples:run -- examples/exampleName.ts`
+You can run each example with `npm run examples:run -- examples/exampleName.ts` 
 
 ### #queryBatchSwap
 
