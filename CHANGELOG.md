@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.1...v1.6.2) (2024-03-27)
+
+
+### Bug Fixes
+
+* jelly token address and seidevnet network ([377fd0c](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/377fd0ce8493a93584742bdad611adf2047671ae))
+
 ## [1.6.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.0...v1.6.1) (2024-03-27)
 
 
