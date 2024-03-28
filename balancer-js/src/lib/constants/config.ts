@@ -511,7 +511,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     chainId: Network.SEIDEVNET, //713715
     addresses: {
       contracts: {
-        multicall: '0xEe8d287B844959ADe40d718Dc23077ba920e2f07',
+        multicall: '0xDdaa5FbffD813Ed02D140946EB66bD6487F3C778',
         poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102',
         ...addressesByNetwork[Network.SEIDEVNET].contracts,
       },
