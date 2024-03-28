@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.6](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.5...v1.6.6) (2024-03-28)
+
+
+### Bug Fixes
+
+* new multicall address ([81559fe](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/81559fe1c26ddcdcf9a7628b7c4ea36fab1c71f8))
+
 ## [1.6.5](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.4...v1.6.5) (2024-03-28)
 
 
