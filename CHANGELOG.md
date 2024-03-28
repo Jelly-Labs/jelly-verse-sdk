@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.5](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.4...v1.6.5) (2024-03-28)
+
+
+### Bug Fixes
+
+* new subgraph generated types ([c87c420](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/c87c420660d70dde454f60b5cb568f14c63b568d))
+
 ## [1.6.4](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.3...v1.6.4) (2024-03-28)
 
 
