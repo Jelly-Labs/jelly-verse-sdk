@@ -11,6 +11,11 @@ directive @entity on OBJECT
 """Defined a Subgraph ID for an object type"""
 directive @subgraphId(id: String!) on OBJECT
 
+enum Aggregation_interval {
+  day
+  hour
+}
+
 type AmpUpdate {
   endAmp: BigInt!
   endTimestamp: BigInt!
@@ -5417,6 +5422,12 @@ enum Swap_orderBy {
   valueUSD
 }
 
+"""
+A string representation of microseconds UNIX timestamp (16 digits)
+
+"""
+scalar Timestamp
+
 type Token {
   address: String!
   decimals: Int!
@@ -6464,6 +6475,9 @@ type _Block_ {
 
   """The block number"""
   number: Int!
+
+  """The hash of the parent block"""
+  parentHash: Bytes
 
   """Integer representation of the timestamp stored in blocks for the chain"""
   timestamp: Int
