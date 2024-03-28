@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.2...v1.6.3) (2024-03-27)
+
+
+### Bug Fixes
+
+* seidevnet and sepolia swithched chain ids ([d6525cf](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/d6525cfdbea07ad4b955e784c348f60535dbd8e6))
+
 ## [1.6.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.1...v1.6.2) (2024-03-27)
 
 
