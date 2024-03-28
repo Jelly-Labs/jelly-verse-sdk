@@ -524,7 +524,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     },
     urls: {
       subgraph:
-        'https://255d-2a06-5b05-8d06-7d00-ec9a-2aaa-f272-e8ba.ngrok-free.app/subgraphs/name/balancer-labs/balancer-v2',
+        'https://thegraph.dev.mvpworkshop.co/subgraphs/name/balancer-labs/balancer-v2',
     },
     thirdParty: {
       coingecko: {
