@@ -11,6 +11,11 @@ directive @entity on OBJECT
 """Defined a Subgraph ID for an object type"""
 directive @subgraphId(id: String!) on OBJECT
 
+enum Aggregation_interval {
+  day
+  hour
+}
+
 scalar BigDecimal
 
 scalar BigInt
@@ -2337,6 +2342,12 @@ type Subscription {
   ): [VotingEscrow!]!
 }
 
+"""
+A string representation of microseconds UNIX timestamp (16 digits)
+
+"""
+scalar Timestamp
+
 type User {
   """ List of gauge the user has shares """
   gaugeShares(first: Int = 100, orderBy: GaugeShare_orderBy, orderDirection: OrderDirection, skip: Int = 0, where: GaugeShare_filter): [GaugeShare!]
@@ -2583,6 +2594,9 @@ type _Block_ {
 
   """The block number"""
   number: Int!
+
+  """The hash of the parent block"""
+  parentHash: Bytes
 
   """Integer representation of the timestamp stored in blocks for the chain"""
   timestamp: Int
