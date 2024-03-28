@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.4](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.3...v1.6.4) (2024-03-28)
+
+
+### Bug Fixes
+
+* new subgraph for sei ([c54eb0c](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/c54eb0c3a749f15e046c3879b2efd48f7d2e4e27))
+
 ## [1.6.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.2...v1.6.3) (2024-03-27)
 
 
