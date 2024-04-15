@@ -2,7 +2,7 @@ import { Network } from './network';
 import { BalancerNetworkConfig } from '@/types';
 import addressesByNetwork from './addresses.json';
 
-export const balancerVault = '0x7ccBebeb88696f9c8b061f1112Bb970158e29cA5';
+export const balancerVault = '0xA77ac562a5F6CEb8ea59036FC868Fe909d33fBfC';
 
 // Info fetched using npm package slot20
 export const BPT_SLOT = 0;
