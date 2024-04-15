@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.7](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.6...v1.6.7) (2024-04-15)
+
+
+### Bug Fixes
+
+* new sei-devnet vault and weighted pool factory ([7cf0a8a](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/7cf0a8a9053cd05df21298c987e6e00d589155e6))
+
 ## [1.6.6](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.5...v1.6.6) (2024-03-28)
 
 
