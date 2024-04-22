@@ -2,7 +2,7 @@ import { Network } from './network';
 import { BalancerNetworkConfig } from '@/types';
 import addressesByNetwork from './addresses.json';
 
-export const balancerVault = '0xA77ac562a5F6CEb8ea59036FC868Fe909d33fBfC';
+export const balancerVault = '0x7ccBebeb88696f9c8b061f1112Bb970158e29cA5';
 
 // Info fetched using npm package slot20
 export const BPT_SLOT = 0;
@@ -28,11 +28,6 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         bal: addressesByNetwork[Network.MAINNET].contracts.bal,
         wrappedNativeAsset: addressesByNetwork[Network.MAINNET].contracts.weth,
         bbaUsd: addressesByNetwork[Network.MAINNET].tokens.bb_a_usd,
-        lbpRaisingTokens: [
-          '0x6b175474e89094c44da98b954eedeac495271d0f', // DAI
-          '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', // USDC
-          '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', // WETH
-        ],
         stETH: '0xae7ab96520de3a18e5e111b5eaab095312d7fe84',
         wstETH: '0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0',
         veBal: '0xC128a9954e6c874eA3d62ce62B468bA073093F25',
@@ -94,11 +89,6 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       tokens: {
         bal: addressesByNetwork[Network.POLYGON].contracts.bal,
         wrappedNativeAsset: addressesByNetwork[Network.POLYGON].contracts.weth,
-        lbpRaisingTokens: [
-          '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063', // DAI
-          '0x2791bca1f2de4661ed88a30c99a7a9449aa84174', // USDC
-          '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', // WMATIC
-        ],
         ...addressesByNetwork[Network.POLYGON].tokens,
       },
     },
@@ -145,11 +135,6 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       tokens: {
         bal: addressesByNetwork[Network.ARBITRUM].contracts.bal,
         wrappedNativeAsset: addressesByNetwork[Network.ARBITRUM].contracts.weth,
-        lbpRaisingTokens: [
-          '0xda10009cbd5d07dd0cecc66161fc93d7c9000da1', // DAI
-          '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8', // USDC
-          '0x82af49447d8a07e3bd95bd0d56f35241523fbab1', // WETH
-        ],
         ...addressesByNetwork[Network.ARBITRUM].tokens,
       },
     },
@@ -232,11 +217,6 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       tokens: {
         bal: '0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921',
         wrappedNativeAsset: addressesByNetwork[Network.OPTIMISM].contracts.weth,
-        lbpRaisingTokens: [
-          '0xda10009cbd5d07dd0cecc66161fc93d7c9000da1', // DAI
-          '0x7f5c764cbc14f9669b88837ca1490cca17c31607', // USDC
-          '0x4200000000000000000000000000000000000006', // WETH
-        ],
         ...addressesByNetwork[Network.OPTIMISM].tokens,
       },
     },
@@ -324,11 +304,6 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       tokens: {
         bal: '0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e', //beets
         wrappedNativeAsset: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
-        lbpRaisingTokens: [
-          '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83', // WFTM
-          '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75', // USDC
-          '0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E', // DAI
-        ],
       },
     },
     urls: {
