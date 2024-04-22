@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.1...v1.7.2) (2024-04-22)
+
+
+### Bug Fixes
+
+* lbsRaisingTokens removed from token list ([a970f30](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/a970f30da014185e337ffc4ad3f86df1bc1f51c9))
+* v1.7.2 ([6b51dc1](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/6b51dc17ab9a31a48dcde9c6143c88d350c90456))
+
 ## [1.7.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.0...v1.7.1) (2024-04-22)
 
 
