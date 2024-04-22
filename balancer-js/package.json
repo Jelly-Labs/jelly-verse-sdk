@@ -1,6 +1,6 @@
 {
   "name": "@jelly-verse/sdk",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "JavaScript SDK for interacting with the Jelly Verse/Balancer Protocol V2",
   "license": "GPL-3.0-only",
   "main": "dist/index.js",
