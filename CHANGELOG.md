@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.2...v1.7.3) (2024-04-22)
+
+
+### Bug Fixes
+
+* lbpRaisingTokens on SOR undefined ([0b04615](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/0b04615a6cff8c5831ba9d12914b8015a2a29e53))
+* v1.7.3 in package json ([ec4a474](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/ec4a4746de1c630899772feb00df5da4dbb0350d))
+
 ## [1.7.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.1...v1.7.2) (2024-04-22)
 
 
