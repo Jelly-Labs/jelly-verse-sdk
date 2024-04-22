@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.7...v1.7.0) (2024-04-22)
+
+
+### Features
+
+* balancer nettwork config interface extended ([fbe74b2](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/fbe74b267d3b213a4cdfed91d2185ecaa70aec0b))
+
 ## [1.6.7](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.6...v1.6.7) (2024-04-15)
 
 
