@@ -98,12 +98,7 @@ export interface BalancerNetworkConfig {
     contracts: ContractAddresses;
     tokens: {
       wrappedNativeAsset: string;
-      lbpRaisingTokens?: string[];
-      stETH?: string;
-      wstETH?: string;
-      bal: string;
-      veBal?: string;
-      bbaUsd?: string;
+      [key: string]: string;
     };
   };
   tenderly?: BalancerTenderlyConfig;
