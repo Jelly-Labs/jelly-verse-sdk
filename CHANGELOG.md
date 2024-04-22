@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.7.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.0...v1.7.1) (2024-04-22)
+
+
+### Bug Fixes
+
+* reverted sei addreses (vault and weightedPoolFactory) ([a5a9ff5](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/a5a9ff5679e1a6b513a3f990e40aad05f23b5ff6))
+
+## [1.7.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.7...v1.7.0) (2024-04-22)
+
+
+### Features
+
+* balancer nettwork config interface extended ([fbe74b2](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/fbe74b267d3b213a4cdfed91d2185ecaa70aec0b))
+
 ## [1.6.7](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.6.6...v1.6.7) (2024-04-15)
 
 
