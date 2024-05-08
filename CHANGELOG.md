@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.3...v1.8.0) (2024-05-08)
+
+
+### Features
+
+* sei mainnet config draft ([e7b6ba7](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e7b6ba781c7e610d1cdef37857d46cd711a21427))
+
+
+### Bug Fixes
+
+* version fix ([1d0406c](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/1d0406c0f37a43e714d243d169b61954506843f3))
+
 ## [1.7.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.2...v1.7.3) (2024-04-22)
 
 
