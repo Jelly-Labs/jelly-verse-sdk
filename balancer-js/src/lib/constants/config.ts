@@ -511,6 +511,34 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     poolsToIgnore: [],
     sorConnectingTokens: [],
   },
+  [Network.SEI]: {
+    chainId: Network.SEI, //713716
+    addresses: {
+      contracts: {
+        multicall: '0xDdaa5FbffD813Ed02D140946EB66bD6487F3C778',
+        poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102',
+        ...addressesByNetwork[Network.SEI].contracts,
+      },
+      tokens: {
+        bal: addressesByNetwork[Network.SEI].contracts.bal,
+        wrappedNativeAsset: addressesByNetwork[Network.SEI].contracts.wsei,
+        ...addressesByNetwork[Network.SEI].tokens,
+      },
+    },
+    urls: {
+      subgraph:
+        'https://thegraph.dev.mvpworkshop.co/subgraphs/name/jelly/verse',
+    },
+    thirdParty: {
+      coingecko: {
+        nativeAssetId: 'sei',
+        platformId: 'sei',
+      },
+    },
+    pools: {},
+    poolsToIgnore: [],
+    sorConnectingTokens: [],
+  },
 };
 
 export const networkAddresses = (
