@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.0...v1.8.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* constants fix ([52dd9f0](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/52dd9f0a0eb898d5f886a8be692e47162af60a53))
+
 ## [1.8.0](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.7.3...v1.8.0) (2024-05-08)
 
 
