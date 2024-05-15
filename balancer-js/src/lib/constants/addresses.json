@@ -738,7 +738,7 @@
       "jdusd": "0x96e20800fc46D450B18E61344b3B1f53EffA54f7"
     }
   },
-  "713715": {
+  "713716": {
     "contracts": {
       "authorizer": "0x49f75b01a0c279518a690fc085567abb0cc70783",
       "authorizerAdaptor": "0x78879602FaE9fc450354F7bdC0D293c04fE3EbF7",
@@ -770,26 +770,24 @@
       "jusdt": "0xe6C02C9D8B0cab886946f09F641afE9F8aCD92ca"
     }
   },
-  "713716": {
+  "713715": {
     "contracts": {
-      "authorizer": "0x49f75b01a0c279518a690fc085567abb0cc70783",
-      "authorizerAdaptor": "0x78879602FaE9fc450354F7bdC0D293c04fE3EbF7",
-      "authorizerAdaptorEntrypoint": "0xaFf79849837Ff99f912d0b22A15262e7e84DCAF8",
-      "authorizerWithAdaptorValidation": "0x274091FaC0b1019bdF2b9A7CA68A4B3e5BfA96fA",
+      "authorizer": "0xf0c5F639C5d867c281f99FeB44De101AE1A0bEf9",
+      "authorizerAdaptor": "0x892494d64495525EaA938cA89D8fBE7d59e7ABd9",
+      "authorizerAdaptorEntrypoint": "0xFc6Bfe954d4eD7D83bb26063EcDE4B5Fd2141Ff1",
+      "authorizerWithAdaptorValidation": "0xcB76a9Ae8C6604bCD38bEDf4ec7aCfDf3E783e3e",
       "bal": "0x9e7A8e558Ce582511f4104465a886b7bEfBC146b",
       "jly": "0x9e7A8e558Ce582511f4104465a886b7bEfBC146b",
-      "balancerHelpers": "0x9e8aE8D1721AD4ed3921ac9CA9641C3123EDc5Fd",
-      "balancerQueries": "0xeB526f2f92a78728d44684Ec6C8A7D4388c9C0be",
-      "balancerRelayer": "0x05c84f70a10d4c8985670d9f8f53260592fa12b4",
-      "batchRelayerLibrary": "0x559458CdC2c7E2c6950359637E5C815A900B49E8",
-      "composableStablePoolFactory": "0xE528c3dd046BAFe36003b2d8899BD0F4369F01Fc",
-      "feeDistributor": "0xa6971317fb06c76ef731601c64433a4846fca707",
-      "protocolFeesCollector": "0xAc23cb5fae0bD3C3b259C0a553dA7637E32B23CB",
-      "poolRecoveryHelper": "0xA4398B98221eD5FcB6A81837747DB70f8B7F1143",
-      "protocolFeePercentagesProvider": "0xA4398B98221eD5FcB6A81837747DB70f8B7F1143",
-      "protocolIdRegistry": "0xA197d668a20Ea8dF8D52A9C0DF2277901fB315Ea",
-      "vault": "0x7ccBebeb88696f9c8b061f1112Bb970158e29cA5",
-      "weightedPoolFactory": "0x848Ea834Ff33794140BF0aB270204F3C98FA57C3",
+      "balancerHelpers": "0x3FBc985C6261E422AA13296Cf692221896d27Ed1",
+      "balancerQueries": "0xdDAEE0b3341fdd0558105F5d54d45865D194D9F7",
+      "balancerRelayer": "0xA77ac562a5F6CEb8ea59036FC868Fe909d33fBfC",
+      "batchRelayerLibrary": "0x04adB0596cA680214C3057386307826f30914533",
+      "protocolFeesCollector": "0xCdBC9422817E95c01226d10D7290BC7bC9c81cC1",
+      "poolRecoveryHelper": "0x2aaD9F97B7E564db2C85F3b6c97D3Bde1BDE9293",
+      "protocolFeePercentagesProvider": "0x982A3ccc0Ad4e30825A3e7E3AF4BE066D4Be339E",
+      "protocolIdRegistry": "0x2fc05562FA317b0e03A2DbB55664f5b59a00aA77",
+      "vault": "0xe69f4aEAE31B1ed8fC54A3b98482739fC1802FaC",
+      "weightedPoolFactory": "0x5A857486b9d6067669DfDEAe3486E9F539bf4362",
       "wsei": "0x57ee725beeb991c70c53f9642f36755ec6eb2139"
     },
     "tokens": {
