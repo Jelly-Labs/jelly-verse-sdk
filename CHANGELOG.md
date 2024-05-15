@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.2...v1.8.3) (2024-05-15)
+
+
+### Bug Fixes
+
+* sei mainnet address (mock) ([1ca2bb5](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/1ca2bb5c1e2c518a09465f2d33fc07e411e7038e))
+
 ## [1.8.2](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.1...v1.8.2) (2024-05-08)
 
 
