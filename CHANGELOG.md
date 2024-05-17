@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.4](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.3...v1.8.4) (2024-05-17)
+
+
+### Bug Fixes
+
+* relayer address fixed ([78531c8](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/78531c8e5c932c817f1e2d9098fe2f88fa43dbd7))
+
 ## [1.8.3](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.2...v1.8.3) (2024-05-15)
 
 
