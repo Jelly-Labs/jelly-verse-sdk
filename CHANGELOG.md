@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.6](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.5...v1.8.6) (2024-05-23)
+
+
+### Bug Fixes
+
+* new sei mock deploy ([61a2bff](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/61a2bff8be4f62160521166b5b9083ffa191ef4d))
+
 ## [1.8.5](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.4...v1.8.5) (2024-05-17)
 
 
