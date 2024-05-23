@@ -2,7 +2,7 @@ import { Network } from './network';
 import { BalancerNetworkConfig } from '@/types';
 import addressesByNetwork from './addresses.json';
 
-export const balancerVault = '0xe69f4aEAE31B1ed8fC54A3b98482739fC1802FaC';
+export const balancerVault = '0xF4f2576C364c9fAb45b9745a9214c43Bb7e3fED6';
 
 // Info fetched using npm package slot20
 export const BPT_SLOT = 0;
@@ -526,8 +526,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     },
     urls: {
-      subgraph:
-        'https://thegraphprod.dev.mvpworkshop.co/subgraphs/name/jelly/verse',
+      subgraph: 'https://graph2.jelyverse.org/subgraphs/name/jelly/verse',
     },
     thirdParty: {
       coingecko: {
