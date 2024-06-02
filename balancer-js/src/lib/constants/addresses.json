@@ -777,7 +777,7 @@
       "authorizerAdaptorEntrypoint": "0x68C0eFA8b83BfdcE821e37aE19509403Bc061564",
       "authorizerWithAdaptorValidation": "0x52d6a62a3AB771AB690631CCdA4A61fA93684443",
       "bal": "0x716687d1F4b16E5CE78E47C55BF541e01fD4893C",
-      "jly": "0xa9d88c4b497cc7761Cb1Afa89bdf9D1aea178678",
+      "jly": "0xcb30bB0A3BBb2384CD79281a5627C76997cfc25F",
       "balancerHelpers": "0x2eCF9f35B10a75e4EA272f8B923E7282192F67Be",
       "balancerQueries": "0x83c73E10Eb44Fcd567e7cfa9882c6516CDc882E3",
       "balancerRelayer": "0x0e1DB90680a25E06f75332E41FF929a61171D5B3",
@@ -792,7 +792,7 @@
       "wsei": "0x57ee725beeb991c70c53f9642f36755ec6eb2139"
     },
     "tokens": {
-      "jly": "0xa9d88c4b497cc7761Cb1Afa89bdf9D1aea178678",     
+      "jly": "0xcb30bB0A3BBb2384CD79281a5627C76997cfc25F",     
       "jeth": "0x5ca70a668c1875764D87c738d62FdF7e0c227091",
       "jbtc": "0xD0A4a86B62c01C3d6B3Bbd39c08e0dBd302c3b70",
       "jgold": "0xC001bE9FaD650D669a20EBD159c2B6CECb0ff293",
