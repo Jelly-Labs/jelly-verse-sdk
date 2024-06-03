@@ -12,3 +12,4 @@ temp/
 src/contracts/
 
 .vscode/*
+.idea/*

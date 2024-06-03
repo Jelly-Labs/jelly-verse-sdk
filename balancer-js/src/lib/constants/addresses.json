@@ -761,13 +761,19 @@
       "wsei": "0x57ee725beeb991c70c53f9642f36755ec6eb2139"
     },
     "tokens": {
-      "jly": "0x9e7A8e558Ce582511f4104465a886b7bEfBC146b",     
-      "jeth": "0x5ca70a668c1875764D87c738d62FdF7e0c227091",
-      "jbtc": "0xD0A4a86B62c01C3d6B3Bbd39c08e0dBd302c3b70",
-      "jgold": "0xC001bE9FaD650D669a20EBD159c2B6CECb0ff293",
-      "jtsla": "0xF8504bd3662a6A0719e8C22d1DFF182836fefb04",
-      "jusdc": "0xAd149B2C60C07cDB93728c4ceB4C08E9D100b981",
-      "jusdt": "0xe6C02C9D8B0cab886946f09F641afE9F8aCD92ca"
+      "jly": "TODO_UPDATE",
+      "weeth": "TODO_UPDATE",
+      "weth": "TODO_UPDATE",
+      "wbtc": "TODO_UPDATE",
+      "wsei": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+      "isei": "0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423",
+      "stsei": "0xe5085112160fF75ee89a540Cdba570eAFdAF7f57",
+      "usdt": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+      "usdc": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "sfrxeth": "0xac3e018457b222d93114458476f3e3416abbe38f",
+      "frxeth": "0x5e8422345238f34275888049021821e8e08caa1f",
+      "frax": "0x853d955acef822db058eb8505911ed77f175b99e",
+      "wstETH": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
     }
   },
   "713715": {
@@ -792,7 +798,7 @@
       "wsei": "0x57ee725beeb991c70c53f9642f36755ec6eb2139"
     },
     "tokens": {
-      "jly": "0xcb30bB0A3BBb2384CD79281a5627C76997cfc25F",     
+      "jly": "0xcb30bB0A3BBb2384CD79281a5627C76997cfc25F",
       "jeth": "0x5ca70a668c1875764D87c738d62FdF7e0c227091",
       "jbtc": "0xD0A4a86B62c01C3d6B3Bbd39c08e0dBd302c3b70",
       "jgold": "0xC001bE9FaD650D669a20EBD159c2B6CECb0ff293",
