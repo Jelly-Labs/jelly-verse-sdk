@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.9](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.8...v1.8.9) (2024-06-05)
+
+
+### Bug Fixes
+
+* sei deployment addesses and network ([6ae7a6d](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/6ae7a6d629ade3112308ffe3256e5402e305b87a))
+
 ## [1.8.8](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.7...v1.8.8) (2024-06-02)
 
 
