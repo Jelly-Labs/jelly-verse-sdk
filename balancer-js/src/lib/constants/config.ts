@@ -2,7 +2,7 @@ import { Network } from './network';
 import { BalancerNetworkConfig } from '@/types';
 import addressesByNetwork from './addresses.json';
 
-export const balancerVault = '0x339Ccf56deE6c27A009703F68E8e7d7BDC90C2bC';
+export const balancerVault = '0xD330BD1d7DaD9e15657A2D2afb63DA56b734879d';
 
 // Info fetched using npm package slot20
 export const BPT_SLOT = 0;
@@ -512,10 +512,10 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     sorConnectingTokens: [],
   },
   [Network.SEI]: {
-    chainId: Network.SEI, //713716
+    chainId: Network.SEI, //1329
     addresses: {
       contracts: {
-        multicall: '0xDdaa5FbffD813Ed02D140946EB66bD6487F3C778',
+        multicall: '0xcb2436774C3e191c85056d248EF4260ce5f27A9D',
         poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102',
         ...addressesByNetwork[Network.SEI].contracts,
       },

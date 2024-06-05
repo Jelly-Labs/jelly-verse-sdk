@@ -738,7 +738,7 @@
       "jdusd": "0x96e20800fc46D450B18E61344b3B1f53EffA54f7"
     }
   },
-  "713716": {
+  "713715": {
     "contracts": {
       "authorizer": "0x49f75b01a0c279518a690fc085567abb0cc70783",
       "authorizerAdaptor": "0x78879602FaE9fc450354F7bdC0D293c04fE3EbF7",
@@ -770,35 +770,37 @@
       "jusdt": "0xe6C02C9D8B0cab886946f09F641afE9F8aCD92ca"
     }
   },
-  "713715": {
+  "1329": {
     "contracts": {
-      "authorizer": "0x5aBcd17c0ab111B248598488C0f584dAa99293B1",
-      "authorizerAdaptor": "0x5b57412E2013cb6836882E7f977362B50D5cE611",
-      "authorizerAdaptorEntrypoint": "0x68C0eFA8b83BfdcE821e37aE19509403Bc061564",
-      "authorizerWithAdaptorValidation": "0x52d6a62a3AB771AB690631CCdA4A61fA93684443",
-      "bal": "0x716687d1F4b16E5CE78E47C55BF541e01fD4893C",
-      "jly": "0xcb30bB0A3BBb2384CD79281a5627C76997cfc25F",
-      "balancerHelpers": "0x2eCF9f35B10a75e4EA272f8B923E7282192F67Be",
-      "balancerQueries": "0x83c73E10Eb44Fcd567e7cfa9882c6516CDc882E3",
-      "balancerRelayer": "0x0e1DB90680a25E06f75332E41FF929a61171D5B3",
-      "batchRelayerLibrary": "0x03859333d0d1283439Ca7297EfA925eF13570A67",
-      "protocolFeesCollector": "0x07c35FB3eE512919B7A1061766e90126887D985a",
+      "authorizer": "0xDCd251B054079f05df989BA8d2C5614398902D22",
+      "authorizerAdaptor": "0x4c48b83Bf1964A625DDe8149bafC4283D0624a31",
+      "authorizerAdaptorEntrypoint": "0x317F784DA140c2e87d04FF45433b520fECEd31D8",
+      "authorizerWithAdaptorValidation": "0xbfEF1268a93d4C9D7E4d9A0A26a372551EeEfc2c",
+      "bal": "0xd1a7CD7AC45f7775097E9E4845fE071bC06a95B5",
+      "jly": "0xd1a7CD7AC45f7775097E9E4845fE071bC06a95B5",
+      "balancerHelpers": "0x6C31B6A406c98F58c91426c83C62Db2035A0436a",
+      "balancerQueries": "0x7a2Fe3e633244304589c73E08e55444670418BD5",
+      "balancerRelayer": "0xf3a7CAC44aF0B46c3f973c4fF34200CB437882Fd",
+      "batchRelayerLibrary": "0xbb1e149Cb91867303d6224B4e735415c115D1fe2",
+      "protocolFeesCollector": "0x0c8eBeFd0693efBe638117E7b282386CE8D3A33A",
       "poolRecoveryHelper": "0x2796e33231e1122744B5C20D654eb3d6E043E977",
-      "protocolFeePercentagesProvider": "0x3fc451859eC73ac85D33671BB2321D9A2448C17E",
-      "protocolIdRegistry": "0x0a86D4D7ecec68520d3d71ef9d2ED1748F9EDe32",
-      "vault": "0x339Ccf56deE6c27A009703F68E8e7d7BDC90C2bC",
-      "weightedPoolFactory": "0x52d6a62a3AB771AB690631CCdA4A61fA93684443",
-      "composableStablePoolFactory": "0xa9d88c4b497cc7761Cb1Afa89bdf9D1aea178678",
-      "wsei": "0x57ee725beeb991c70c53f9642f36755ec6eb2139"
+      "protocolFeePercentagesProvider": "0xD4B3F77D598c16bB3E0214a3f316b1882C461605",
+      "protocolIdRegistry": "0xc711B9200EB02828806082f32093D2377cD317A9",
+      "vault": "0xD330BD1d7DaD9e15657A2D2afb63DA56b734879d",
+      "weightedPoolFactory": "0xdA3F3BF29d8e43E88cb60ED549C24E44EFDb9b40",
+      "wsei": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
     },
     "tokens": {
-      "jly": "0xcb30bB0A3BBb2384CD79281a5627C76997cfc25F",     
-      "jeth": "0x5ca70a668c1875764D87c738d62FdF7e0c227091",
-      "jbtc": "0xD0A4a86B62c01C3d6B3Bbd39c08e0dBd302c3b70",
-      "jgold": "0xC001bE9FaD650D669a20EBD159c2B6CECb0ff293",
-      "jtsla": "0xF8504bd3662a6A0719e8C22d1DFF182836fefb04",
-      "jusdc": "0xAd149B2C60C07cDB93728c4ceB4C08E9D100b981",
-      "jusdt": "0xe6C02C9D8B0cab886946f09F641afE9F8aCD92ca"
+      "jly": "0xd1a7CD7AC45f7775097E9E4845fE071bC06a95B5",
+      "wsei": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+      "isei": "0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423",
+      "stsei": "0xe5085112160fF75ee89a540Cdba570eAFdAF7f57",
+      "usdt": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+      "usdc": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "sfrxeth": "0xac3e018457b222d93114458476f3e3416abbe38f",
+      "frxeth": "0x5e8422345238f34275888049021821e8e08caa1f",
+      "frax": "0x853d955acef822db058eb8505911ed77f175b99e",
+      "wstETH": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
     }
   }
 }
