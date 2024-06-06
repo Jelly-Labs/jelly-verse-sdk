@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.10](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.9...v1.8.10) (2024-06-06)
+
+
+### Bug Fixes
+
+* new deploy addresses sei ([f730e52](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/f730e5297adbe3e408ccee6f7eed4472d40b4588))
+* package and package lock update ([95e7de2](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/95e7de2be8f2fa2ffe4cfdd3e1b30961e4311d60))
+
 ## [1.8.9](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.8...v1.8.9) (2024-06-05)
 
 
