@@ -1,7 +1,7 @@
 overwrite: true
 generates:
     src/modules/subgraph/generated/balancer-subgraph-types.ts:
-        schema: ${BALANCER_SUBGRAPH_URL:https://thegraph.dev.mvpworkshop.co/subgraphs/name/balancer-labs/balancer-v2}
+        schema: ${BALANCER_SUBGRAPH_URL:https://graph.mainnet.jelyverse.org/subgraphs/name/jelly/verse}
         documents: 'src/modules/subgraph/balancer-v2/**/*.graphql'
         plugins:
             - typescript
@@ -13,7 +13,7 @@ generates:
                 Bytes: string
                 BigDecimal: string
     src/modules/subgraph/generated/balancer-subgraph-schema.graphql:
-        schema: ${BALANCER_SUBGRAPH_URL:https://thegraph.dev.mvpworkshop.co/subgraphs/name/balancer-labs/balancer-v2}
+        schema: ${BALANCER_SUBGRAPH_URL:https://graph.mainnet.jelyverse.org/subgraphs/name/jelly/verse}
         plugins:
             - schema-ast
     src/modules/subgraph/generated/balancer-gauges.ts:
