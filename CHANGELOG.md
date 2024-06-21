@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.8.12](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.11...v1.8.12) (2024-06-21)
+
+
+### Bug Fixes
+
+* codegen fixed ([e6272f5](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e6272f551e28ea261a070bb369f05791f0a19f8b))
+* graph url updated ([280adee](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/280adeef68fa3bd1a02c761c3cb248d74db4d24a))
+* sei testnet addresses ([a659dfa](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/a659dfad35fb8866438abe592dec0070aead4f0d))
+* typo in graphname fixed ([f4dbe71](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/f4dbe7125844556d7e08ff956c4aaef2a4934fba))
+
 ## [1.8.11](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.10...v1.8.11) (2024-06-17)
 
 
