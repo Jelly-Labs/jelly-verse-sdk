@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.12](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.11...v1.8.12) (2024-06-21)
+
+
+### Bug Fixes
+
+* sei testnet addresses ([a659dfa](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/a659dfad35fb8866438abe592dec0070aead4f0d))
+
 ## [1.8.11](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.10...v1.8.11) (2024-06-17)
 
 
