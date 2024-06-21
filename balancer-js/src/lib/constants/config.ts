@@ -499,7 +499,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     },
     urls: {
       subgraph:
-        'https://thegraph.dev.mvpworkshop.co/subgraphs/name/balancer-labs/balancer-v2',
+        'https://graph.devnet.jellyverse.org/subgraphs/name/jelly/verse',
     },
     thirdParty: {
       coingecko: {
@@ -526,7 +526,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     },
     urls: {
-      subgraph: 'https://graph2.jelyverse.org/subgraphs/name/jelly/verse',
+      subgraph: 'https://graph2.jellyverse.org/subgraphs/name/jelly/verse',
     },
     thirdParty: {
       coingecko: {
@@ -553,7 +553,8 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     },
     urls: {
-      subgraph: 'https://graph.devnet.jelyverse.org/subgraphs/name/jelly/verse',
+      subgraph:
+        'https://graph.devnet.jellyverse.org/subgraphs/name/jelly/verse',
     },
     thirdParty: {
       coingecko: {
