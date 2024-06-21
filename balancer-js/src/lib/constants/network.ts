@@ -12,5 +12,6 @@ export enum Network {
   AVALANCHE = 43114,
   SEIDEVNET = 713715,
   SEI = 1329,
+  SEITESTNET = 1328,
   SEPOLIA = 11155111,
 }
