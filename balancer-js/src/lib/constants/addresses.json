@@ -788,7 +788,8 @@
       "protocolIdRegistry": "0x49B8fA3a2ccC0A5912528Db7265E87813c526c9C",
       "vault": "0xFB43069f6d0473B85686a85F4Ce4Fc1FD8F00875",
       "weightedPoolFactory": "0xCe733ca21882D1407386aF13c59F59e02B1Db5A9",
-      "wsei": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+      "wsei": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+      "composableStablePoolFactory": "0xc56eC83C192bB0328219eDD04540A93d7a85A8Ea"
     },
     "tokens": {
       "jly": "0xDD7d5e4Ea2125d43C16eEd8f1FFeFffa2F4b4aF6",
