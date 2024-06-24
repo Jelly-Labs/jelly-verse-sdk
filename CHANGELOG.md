@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.13](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.12...v1.8.13) (2024-06-24)
+
+
+### Bug Fixes
+
+* composable stable pools on sei ([498f710](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/498f710892a74fe58fd7d8a1011b61c831b9bd1f))
+
 ## [1.8.12](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.11...v1.8.12) (2024-06-21)
 
 
