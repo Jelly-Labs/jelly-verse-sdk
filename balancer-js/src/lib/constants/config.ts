@@ -2,7 +2,7 @@ import { Network } from './network';
 import { BalancerNetworkConfig } from '@/types';
 import addressesByNetwork from './addresses.json';
 
-export const balancerVault = '0xFB43069f6d0473B85686a85F4Ce4Fc1FD8F00875';
+export const balancerVault = '0x428AEc7c1E0c9A52686774434A1D6DE5134Ac529';
 
 // Info fetched using npm package slot20
 export const BPT_SLOT = 0;
@@ -499,7 +499,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     },
     urls: {
       subgraph:
-        'https://thegraph.dev.mvpworkshop.co/subgraphs/name/balancer-labs/balancer-v2',
+        'https://graph.devnet.jellyverse.org/subgraphs/name/jelly/verse',
     },
     thirdParty: {
       coingecko: {
@@ -526,7 +526,35 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     },
     urls: {
-      subgraph: 'https://graph2.jelyverse.org/subgraphs/name/jelly/verse',
+      subgraph: 'https://graph2.jellyverse.org/subgraphs/name/jelly/verse',
+    },
+    thirdParty: {
+      coingecko: {
+        nativeAssetId: 'sei',
+        platformId: 'sei',
+      },
+    },
+    pools: {},
+    poolsToIgnore: [],
+    sorConnectingTokens: [],
+  },
+  [Network.SEITESTNET]: {
+    chainId: Network.SEITESTNET, //1328
+    addresses: {
+      contracts: {
+        multicall: '0x581a51b79baeD8a01533669EFc1BDBC88d0558E0',
+        poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102',
+        ...addressesByNetwork[Network.SEI].contracts,
+      },
+      tokens: {
+        bal: addressesByNetwork[Network.SEI].contracts.bal,
+        wrappedNativeAsset: addressesByNetwork[Network.SEI].contracts.wsei,
+        ...addressesByNetwork[Network.SEI].tokens,
+      },
+    },
+    urls: {
+      subgraph:
+        'https://graph.devnet.jellyverse.org/subgraphs/name/jelly/verse',
     },
     thirdParty: {
       coingecko: {

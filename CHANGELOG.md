@@ -1,5 +1,51 @@
 # Changelog
 
+## [1.8.12](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.11...v1.8.12) (2024-06-21)
+
+
+### Bug Fixes
+
+* codegen fixed ([e6272f5](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/e6272f551e28ea261a070bb369f05791f0a19f8b))
+* graph url updated ([280adee](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/280adeef68fa3bd1a02c761c3cb248d74db4d24a))
+* sei testnet addresses ([a659dfa](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/a659dfad35fb8866438abe592dec0070aead4f0d))
+* typo in graphname fixed ([f4dbe71](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/f4dbe7125844556d7e08ff956c4aaef2a4934fba))
+
+## [1.8.11](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.10...v1.8.11) (2024-06-17)
+
+
+### Bug Fixes
+
+* weth address on sei mainnet ([f1ccb8d](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/f1ccb8d3145b64530393e601d2a99b0da5ac4e1e))
+
+## [1.8.10](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.9...v1.8.10) (2024-06-06)
+
+
+### Bug Fixes
+
+* new deploy addresses sei ([f730e52](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/f730e5297adbe3e408ccee6f7eed4472d40b4588))
+* package and package lock update ([95e7de2](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/95e7de2be8f2fa2ffe4cfdd3e1b30961e4311d60))
+
+## [1.8.9](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.8...v1.8.9) (2024-06-05)
+
+
+### Bug Fixes
+
+* sei deployment addesses and network ([6ae7a6d](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/6ae7a6d629ade3112308ffe3256e5402e305b87a))
+
+## [1.8.8](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.7...v1.8.8) (2024-06-02)
+
+
+### Bug Fixes
+
+* jelly token fixed for mock deployment ([f26cfef](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/f26cfef553d3fc2c79bd0a7ec5861c243a85a7b8))
+
+## [1.8.7](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.6...v1.8.7) (2024-05-31)
+
+
+### Bug Fixes
+
+* new mock deploy ([be1fb61](https://github.com/MVPWorkshop/jelly-verse-sdk/commit/be1fb613699e8228a18eae7dd049b05aa1d38fa2))
+
 ## [1.8.6](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.5...v1.8.6) (2024-05-23)
 
 
