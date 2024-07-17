@@ -824,7 +824,7 @@
       "protocolFeePercentagesProvider": "0x0405fFc076f9e6e1404a695a12154b39E44D41a4",
       "protocolIdRegistry": "0xA197d668a20Ea8dF8D52A9C0DF2277901fB315Ea",
       "vault": "0x428AEc7c1E0c9A52686774434A1D6DE5134Ac529",
-      "weightedPoolFactory": "0x848Ea834Ff33794140BF0aB270204F3C98FA57C3",
+      "weightedPoolFactory": "0x74737E1b3900Ed3CBc2b4cB32044e2e0540d1a69",
       "wsei": "0x3921eA6Cf927BE80211Bb57f19830700285b0AdA"
     },
     "tokens": {
