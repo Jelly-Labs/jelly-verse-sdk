@@ -17,7 +17,7 @@ generates:
         plugins:
             - schema-ast
     src/modules/subgraph/generated/balancer-gauges.ts:
-        schema: ${BALANCER_GAUGES_URL:https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gauges}
+        schema: ${BALANCER_GAUGES_URL:https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest}
         documents: 'src/modules/subgraph/balancer-gauges/**/*.graphql'
         plugins:
             - typescript
@@ -31,7 +31,7 @@ generates:
             namingConvention:
                 enumValues: keep
     src/modules/subgraph/generated/balancer-gauges.graphql:
-        schema: ${BALANCER_GAUGES_URL:https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gauges}
+        schema: ${BALANCER_GAUGES_URL:https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest}
         plugins:
             - schema-ast
 hooks:

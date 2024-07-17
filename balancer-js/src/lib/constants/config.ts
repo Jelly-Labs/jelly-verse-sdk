@@ -548,7 +548,8 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
       tokens: {
         bal: addressesByNetwork[Network.SEITESTNET].contracts.bal,
-        wrappedNativeAsset: addressesByNetwork[Network.SEITESTNET].contracts.wsei,
+        wrappedNativeAsset:
+          addressesByNetwork[Network.SEITESTNET].contracts.wsei,
         ...addressesByNetwork[Network.SEITESTNET].tokens,
       },
     },
