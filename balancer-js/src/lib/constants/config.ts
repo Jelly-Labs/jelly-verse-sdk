@@ -544,12 +544,12 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       contracts: {
         multicall: '0x581a51b79baeD8a01533669EFc1BDBC88d0558E0',
         poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102',
-        ...addressesByNetwork[Network.SEI].contracts,
+        ...addressesByNetwork[Network.SEITESTNET].contracts,
       },
       tokens: {
-        bal: addressesByNetwork[Network.SEI].contracts.bal,
-        wrappedNativeAsset: addressesByNetwork[Network.SEI].contracts.wsei,
-        ...addressesByNetwork[Network.SEI].tokens,
+        bal: addressesByNetwork[Network.SEITESTNET].contracts.bal,
+        wrappedNativeAsset: addressesByNetwork[Network.SEITESTNET].contracts.wsei,
+        ...addressesByNetwork[Network.SEITESTNET].tokens,
       },
     },
     urls: {
