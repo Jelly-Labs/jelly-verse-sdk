@@ -15,6 +15,10 @@ jobs:
   build_and_release:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
