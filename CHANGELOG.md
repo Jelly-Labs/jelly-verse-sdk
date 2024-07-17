@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.8.14](https://github.com/Jelly-Labs/jelly-verse-sdk/compare/v1.8.13...v1.8.14) (2024-07-17)
+
+
+### Bug Fixes
+
+* codegen for subgraph ([b9f1f24](https://github.com/Jelly-Labs/jelly-verse-sdk/commit/b9f1f24dd85220c088e358428a02095548ce39c3))
+* linter ([d10ea5a](https://github.com/Jelly-Labs/jelly-verse-sdk/commit/d10ea5ae11dbf0c3cc83213c7e59fb1a790a6bd6))
+* SEITESTNET config ([546fb00](https://github.com/Jelly-Labs/jelly-verse-sdk/commit/546fb008d4a3bc47b4c63a6443b2b80e8809fd34))
+* weighted pool factory address on seitesnet ([59f0bcc](https://github.com/Jelly-Labs/jelly-verse-sdk/commit/59f0bccd23cd134a91fdacf4ef2b7837a2a68996))
+
 ## [1.8.13](https://github.com/MVPWorkshop/jelly-verse-sdk/compare/v1.8.12...v1.8.13) (2024-06-24)
 
 
