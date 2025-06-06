@@ -761,7 +761,7 @@
       "wsei": "0x57ee725beeb991c70c53f9642f36755ec6eb2139"
     },
     "tokens": {
-      "jly": "0x9e7A8e558Ce582511f4104465a886b7bEfBC146b",     
+      "jly": "0x9e7A8e558Ce582511f4104465a886b7bEfBC146b",
       "jeth": "0x5ca70a668c1875764D87c738d62FdF7e0c227091",
       "jbtc": "0xD0A4a86B62c01C3d6B3Bbd39c08e0dBd302c3b70",
       "jgold": "0xC001bE9FaD650D669a20EBD159c2B6CECb0ff293",
@@ -828,13 +828,39 @@
       "wsei": "0x3921eA6Cf927BE80211Bb57f19830700285b0AdA"
     },
     "tokens": {
-      "jly": "0xfDCEd108BDcBCd02E5C3B5795c06F831Fe681064",     
+      "jly": "0xfDCEd108BDcBCd02E5C3B5795c06F831Fe681064",
       "jeth": "0x49f75b01a0c279518a690fc085567abb0cc70783",
       "jbtc": "0x50a56b7a6ba08128b68109c3e191adf4ec0af6a9",
       "jgold": "0x14cedb52e6ee987070c9346e13468279551f39dd",
       "jtsla": "0x3d74491983a5f1d989e1d47f0582d2ba4e7be30d",
       "jusdc": "0x708502c212F995b7f42aD25d44CB494f8D807D41",
       "jusdt": "0x08cb25EF8A37Fe1B8f9113ca494dB38bAdD040c5"
+    }
+  },
+  "97": {
+    "contracts": {
+      "authorizer": "0xbb2c7E271fDE5B5ebaC42fDf02122313d6c3bbF4",
+      "authorizerAdaptor": "0x06Ee5c582Af9a00a75b960406cc80af5E403e068",
+      "authorizerAdaptorEntrypoint": "0xb67bc8a2b6739CCE6Cb072197CCfae10B9d074Fd",
+      "authorizerWithAdaptorValidation": "0x9e90F364f26dA40EcFA275f31848892c70a38310",
+      "protocolFeesCollector": "0x140249A858e575bA38448Fb7206E2a4621ADd38",
+      "balancerHelpers": "0x663D03f8d1778cD419546118681698AA8e25DaE9",
+      "vault": "0x62885fecFA40C5431d85a1E5bbE04714cF9E507F",
+      "balancerQueries": "0xB2D37A28b633407C9B52751A2A12ed95356fcF89",
+      "protocolFeePercentagesProvider": "0x428AEc7c1E0c9A52686774434A1D6DE5134Ac529",
+      "protocolIdRegistry": "0xec3545c34FF35FCA757601B505EAEefd97FE291d",
+      "batchRelayerLibrary": "0x2E6cF2C51E20FE94B9252Dc4eafB535D8E5abE67",
+      "weightedPoolFactory": "0x0405fFc076f9e6e1404a695a12154b39E44D41a4",
+      "composableStablePoolFactory": "0x4BaC4028c5E525317D85C056140730d937111Ea6",
+      "balancerRelayer": "0xf5dcbE10eb6a9C3d6dAa8130f93eba33B3729499",
+      "wbnb": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "feeDistributor": "0xUNDEFINED",
+      "poolRecoveryHelper": "0xUNDEFINED"
+    },
+    "tokens": {
+      "wbnb": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "usdc": "0x87b9D6692Bb031F4737aF6683B79F4eE0B9cC413",
+      "frax": "0x50574f2B56082C6DFE062dc20A3bfBF623193b5f"
     }
   }
 }

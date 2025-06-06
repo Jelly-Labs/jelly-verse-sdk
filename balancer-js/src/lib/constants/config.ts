@@ -10,7 +10,7 @@ export const BPT_DECIMALS = 18;
 
 export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
   [Network.MAINNET]: {
-    chainId: Network.MAINNET, //1
+    chainId: Network.MAINNET,
     addresses: {
       //Mainnet deployment addresses: https://docs.balancer.fi/reference/contracts/deployment-addresses/mainnet.html
       contracts: {
@@ -55,7 +55,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     },
     poolsToIgnore: [
-      '0xbd482ffb3e6e50dc1c437557c3bea2b68f3683ee', // a pool made by an external dev who was playing with a novel rate provider mechanism in production.
+      '0xbd482ffb3e6e50dc1c437557c3bea2b68f3683ee',
       '0x0afbd58beca09545e4fb67772faf3858e610bcd0',
       '0xf22ff21e17157340575158ad7394e068048dd98b',
       '0xf71d0774b214c4cf51e33eb3d30ef98132e4dbaa',
@@ -76,7 +76,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.POLYGON]: {
-    chainId: Network.POLYGON, //137
+    chainId: Network.POLYGON,
     addresses: {
       //Polygon deployment addresses: https://docs.balancer.fi/reference/contracts/deployment-addresses/polygon.html
       contracts: {
@@ -108,7 +108,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     },
     pools: {},
     poolsToIgnore: [
-      '0x600bd01b6526611079e12e1ff93aba7a3e34226f', // This pool has rateProviders with incorrect scaling
+      '0x600bd01b6526611079e12e1ff93aba7a3e34226f',
       '0xc31a37105b94ab4efca1954a14f059af11fcd9bb', // Stable pool with Convergence issues
     ],
     sorConnectingTokens: [
@@ -123,7 +123,8 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.ARBITRUM]: {
-    chainId: Network.ARBITRUM, //42161
+    chainId: Network.ARBITRUM,
+
     //Arbitrum deployment addresses: https://docs.balancer.fi/reference/contracts/deployment-addresses/arbitrum.html
     addresses: {
       contracts: {
@@ -160,12 +161,13 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     ],
     sorTriPathMidPoolIds: [
-      '0x178e029173417b1f9c8bc16dcec6f697bc323746000200000000000000000158', // wstEth/USDC.e to open up auraBAL/USDC
+      '0x178e029173417b1f9c8bc16dcec6f697bc323746000200000000000000000158',
       '0x0052688295413b32626d226a205b95cdb337de860002000000000000000003d1', // arb/USDC.e to open up aura/USDC
     ],
   },
   [Network.GOERLI]: {
-    chainId: Network.GOERLI, //5
+    chainId: Network.GOERLI,
+
     //Goerli deployment addresses: https://docs.balancer.fi/reference/contracts/deployment-addresses/goerli.html
     addresses: {
       contracts: {
@@ -205,7 +207,8 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.OPTIMISM]: {
-    chainId: Network.OPTIMISM, //10
+    chainId: Network.OPTIMISM,
+
     // Optimism deployment addresses: https://docs.balancer.fi/reference/contracts/deployment-addresses/optimism.html
     addresses: {
       contracts: {
@@ -243,7 +246,8 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.GNOSIS]: {
-    chainId: Network.GNOSIS, //100
+    chainId: Network.GNOSIS,
+
     // Gnosis deployment addresses: https://docs.balancer.fi/reference/contracts/deployment-addresses/gnosis.html
     addresses: {
       contracts: {
@@ -286,14 +290,15 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.FANTOM]: {
-    chainId: Network.FANTOM, //250
+    chainId: Network.FANTOM,
+
     //Fantom deployment addresses: https://docs.beets.fi/technicals/deployments
     addresses: {
       contracts: {
         vault: '0x20dd72Ed959b6147912C2e529F0a0C651c33c9ce',
         multicall: '0x66335d7ad8011f6aa3f48aadcb523b62b38ed961',
         poolDataQueries: '0xb132F1E145DcC085980C531e2dA81f2b84efc14F',
-        gaugeClaimHelper: '0x0000000000000000000000000000000000000000', // no guages on fantom
+        gaugeClaimHelper: '0x0000000000000000000000000000000000000000',
         balancerRelayer: '0x419f7925b8c9e409b6ee8792242556fa210a7a09',
         balancerHelpers: '0xfE18C7C70b0a2c6541bEde0367124278BC345Dc8',
         weightedPoolFactory: '0x60467cb225092cE0c989361934311175f437Cf53',
@@ -302,14 +307,14 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         yearnLinearPoolFactory: '0x1f73ae6ed391a2b1e84ff988a1bb5394b78a4a71',
       },
       tokens: {
-        bal: '0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e', //beets
+        bal: '0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e',
         wrappedNativeAsset: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
       },
     },
     urls: {
       subgraph:
         'https://api.thegraph.com/subgraphs/name/beethovenxfi/beethovenx-v2-fantom',
-      gaugesSubgraph: '', // no guages on fantom
+      gaugesSubgraph: '',
       blockNumberSubgraph:
         'https://api.thegraph.com/subgraphs/name/beethovenxfi/fantom-blocks',
     },
@@ -329,7 +334,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.SEPOLIA]: {
-    chainId: Network.SEPOLIA, //11155111
+    chainId: Network.SEPOLIA,
     addresses: {
       contracts: {
         multicall: '0xcA11bde05977b3631167028862bE2a173976CA11',
@@ -357,7 +362,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     sorConnectingTokens: [],
   },
   [Network.ZKEVM]: {
-    chainId: Network.ZKEVM, //1101
+    chainId: Network.ZKEVM,
     addresses: {
       contracts: {
         balancerMinter: '0x475D18169BE8a89357A9ee3Ab00ca386d20fA229',
@@ -398,7 +403,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.AVALANCHE]: {
-    chainId: Network.AVALANCHE, //43114
+    chainId: Network.AVALANCHE,
     addresses: {
       contracts: {
         balancerMinter: '0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B',
@@ -441,7 +446,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.BASE]: {
-    chainId: Network.BASE, //8453
+    chainId: Network.BASE,
     addresses: {
       contracts: {
         balancerMinter: '0xc7E5ED1054A24Ef31D827E6F86caA58B3Bc168d7',
@@ -483,7 +488,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     ],
   },
   [Network.SEIDEVNET]: {
-    chainId: Network.SEIDEVNET, //713715
+    chainId: Network.SEIDEVNET,
     addresses: {
       contracts: {
         multicall: '0xDdaa5FbffD813Ed02D140946EB66bD6487F3C778',
@@ -512,7 +517,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     sorConnectingTokens: [],
   },
   [Network.SEI]: {
-    chainId: Network.SEI, //1329
+    chainId: Network.SEI,
     addresses: {
       contracts: {
         multicall: '0xcb2436774C3e191c85056d248EF4260ce5f27A9D',
@@ -526,7 +531,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     },
     urls: {
-      subgraph: 'https://graph2.jellyverse.org/subgraphs/name/jelly/verse',
+      subgraph: 'https://graph.jellyverse.org',
     },
     thirdParty: {
       coingecko: {
@@ -539,7 +544,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     sorConnectingTokens: [],
   },
   [Network.SEITESTNET]: {
-    chainId: Network.SEITESTNET, //1328
+    chainId: Network.SEITESTNET,
     addresses: {
       contracts: {
         multicall: '0x581a51b79baeD8a01533669EFc1BDBC88d0558E0',
@@ -561,6 +566,34 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       coingecko: {
         nativeAssetId: 'sei',
         platformId: 'sei',
+      },
+    },
+    pools: {},
+    poolsToIgnore: [],
+    sorConnectingTokens: [],
+  },
+  [Network.BNB_TESTNET]: {
+    chainId: Network.BNB_TESTNET,
+    addresses: {
+      contracts: {
+        multicall: '0xcb2436774C3e191c85056d248EF4260ce5f27A9D',
+        poolDataQueries: '0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102',
+        ...addressesByNetwork[Network.BNB_TESTNET].contracts,
+      },
+      tokens: {
+        wrappedNativeAsset:
+          addressesByNetwork[Network.BNB_TESTNET].contracts.wbnb,
+        ...addressesByNetwork[Network.BNB_TESTNET].tokens,
+      },
+    },
+    urls: {
+      subgraph:
+        'https://app.goldsky.com/project_cm3638bmj4y8k01wd3hld2l1x/dashboard/subgraphs/bnb/testnet',
+    },
+    thirdParty: {
+      coingecko: {
+        nativeAssetId: 'binancecoin',
+        platformId: 'binancecoin',
       },
     },
     pools: {},

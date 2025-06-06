@@ -14,4 +14,6 @@ export enum Network {
   SEI = 1329,
   SEITESTNET = 1328,
   SEPOLIA = 11155111,
+  BNB_TESTNET = 97,
+  // BNB_MAINNET = 56, // TODO
 }

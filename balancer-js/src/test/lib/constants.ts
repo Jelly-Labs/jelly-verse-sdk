@@ -18,6 +18,8 @@ export const PROVIDER_URLS = {
   [Network.SEPOLIA]: `https://sepolia.infura.io/v3/${process.env.INFURA}`,
   [Network.GNOSIS]: `https://rpc.gnosis.gateway.fm`,
   [Network.ZKEVM]: `https://zkevm-rpc.com`,
+  [Network.BNB_TESTNET]: `https://maximum-weathered-putty.bsc-testnet.quiknode.pro/6c9c496f23fe981e0c45a9c6f8cdf610d6c27a6d/`,
+  // [Network.BNB_MAINNET]: `https://broken-long-sea.bsc.quiknode.pro/ed03faa5f1ea9d32691d3049c2fad332182df588/`,
 };
 
 export type TestAddress = {
@@ -929,4 +931,18 @@ export const ADDRESSES = {
       symbol: 'USDC',
     },
   },
+  [Network.BNB_TESTNET]: {
+    WETH: {
+      address: '0x',
+      decimals: 18,
+      symbol: 'XXX',
+    },
+  },
+  // [Network.BNB_MAINNET]: {
+  //   WETH: {
+  //     address: '0x',
+  //     decimals: 18,
+  //     symbol: 'XXX',
+  //   },
+  // },
 };
